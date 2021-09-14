@@ -10,7 +10,7 @@ An example Messaging Routing API which is a component of an overall email messag
 - It will appy logic to determine such things as if a sender is allowed to send from a certain email address, check if customer accounts are active, check if recipients of emails have opted out, etc.
 
 ## Message Queue Broker
-- This is a wrapper over the message queue functionality and would be intended to the interface for all other applications/services that need to interact with the queus.
+- This is a wrapper over the message queue functionality and would be intended to the interface for all other applications/services that need to interact with the queues.
 
 ## Natural Language Service
 - Api which utilizes machine learning to classify the contents of an email to see if it violates terms of service. Hate speech for example.
