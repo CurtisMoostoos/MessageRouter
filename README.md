@@ -47,6 +47,9 @@ This layer provides a public interface to RESTful services implemented using .Ne
 The Application Layer mediates between the API Layer and Domain Layer, and orchestrates business objects to perform specific application tasks. It provides a clean separation between the API Layer and the Domain Layer, which contributes to the clarity of the entire architecture. 
 The major components in this layer are the Application Services, the DTOs, and the DTO mappers.
 
+## MessageRouter.Common
+This project houses common items for reusabilty across the entirety of the solution. In this demo app it only contains some constants and enumerations, but it would also be the place to put any extension methods or cross-cutting concerns such as logging.
+
 ## MessageRouter.Domain
 The Domain Layer consists of the custom exceptions (if any), Domain Models, and Repository Interfaces. Important to note that the domain models here are more than just bags of getter and setters. you should be trying to put as much of the business logic into the domain as possible.
 
