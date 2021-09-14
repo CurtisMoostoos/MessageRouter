@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessageRouter.Common\MessageRouter.Common.csproj" />
+    <ProjectReference Include="..\MessageRouter.Domain\MessageRouter.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
